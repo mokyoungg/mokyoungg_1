@@ -1,0 +1,213 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.first {
+  font-family: 'Nanum Gothic', sans-serif;
+  height: 5px;
+}
+.first p {
+  font-size: 20px;
+  padding-top: 5px;
+}
+.simple_int {
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+  height: 500px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.simple_int p {
+  font-size: 60px;
+  padding-top: 100px;
+  text-align: center;
+}
+.mark {
+  background-color: #f0ff00;
+  font-family: "Nanum Myeongjo", serif;
+}
+.second p {
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.box {
+  width: 800px;
+  height: 100px;
+  background-color: #f0ff00;
+  margin-top: -70px;
+}
+.self_int{
+  width: 60%;
+  height: 400px;
+  background-color: rgb(244, 244, 244);
+  margin-left: 20%;
+}
+.self_int p {
+  font-size: 20px;
+  width: 500px;
+  line-height: 60px;
+  font-family: "Nanum Myeongjo", serif;
+  color: rgb(40, 44, 52);
+  text-align: right;
+}
+.hashtag {
+  font-size: 25px;
+  line-height: 40px;
+}
+.third {
+  font-size: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  margin-top: 200px;
+}
+.myimg {
+  width: 40%;
+  height: 400px;
+  float: right;
+}
+.mbti-img {
+  width: 85%;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+h2 {
+  font-size: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 900;
+}
+.mbti {
+  display: grid;
+  width: 1500px;
+  height: 500px;
+  grid-template: 2fr 2fr 2fr 2fr / 500px 1000px;
+}
+.mbtione {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 25px;
+  font-style: italic;
+  color: #21252b;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: left;
+}
+.mbtitwo {
+  grid-row: 1 / 4;
+  grid-column: 2;
+  margin-top: 100px;
+  margin-right: 145px;
+  font-size: 20px;
+  color: #21252b;
+  font-family: "Nanum Myeongjo", serif;
+  text-align: left;
+}
+.mbtithree {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 150px;
+  line-height: 35px;
+}
+.mark-one {
+  background-color: #e0e0e0;
+  font-size: 25px;
+}
+.mark-two {
+  background-color: #21252b;
+  color: #cecece;
+}
+.fourth h2 {
+  text-align: left;
+}
+.like {
+  display: grid;
+  width: 1500px;
+  height: 800px;
+  grid-gap: 10px;
+  background-color: rgb(244, 244, 244);
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.like img {
+  width: 100%;
+  height: 100%;
+}
+.likezero {
+  grid-row: 1;
+  grid-column: 2 / 8;
+  text-align: center;
+  font-family: "nanum Myeongjo", serif;
+  font-size: 30px;
+}
+.likeone {
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
+}
+.liketwo {
+  grid-row: : 2 / 3;
+  grid-column: 2 / 3;
+}
+.likethree{
+  grid-row: 4 / 5;
+  grid-column: 3 / 4;
+  background-color: green;
+}
+.likefour{
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  background-color: blue;
+}
+.likefive{
+  grid-row: 2 / 3;
+  grid-column: 5 /6;
+  background-color: brown;
+}
+.likesix{
+  grid-row: 3 / 5;
+  grid-column: 4 / 6;
+  background-color: skyblue;
+}
+.likeseven{
+  grid-row: 2 / 3;
+  grid-column: 6 / 7;
+  background-color: purple;
+}
+.likeeight{
+  grid-row: 2 / 3;
+  grid-column: 7 / 8;
+  background-color: cyan;
+}
+.likenine{
+  grid-row: 3 / 4;
+  grid-column: 6 / 7;
+  background-color: orange;
+}
+.likeeleven{
+  grid-row: 3 / 4;
+  grid-column: 7 / 8;
+  background-color: pink;
+}
+.liketwelve{
+  grid-row: 4 / 5;
+  grid-column: 6 /7;
+  background-color: gold;
+}
+.likethirteen{
+  grid-row: 4 / 5;
+  grid-column: 7 / 8;
+  background-color: navy;
+}
+.last {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 200px;
+  font-size: 25px;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 300;
+  color: rgb(40, 44, 52);
+  text-align: center;
+}
